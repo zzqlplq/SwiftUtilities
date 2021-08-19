@@ -13,10 +13,11 @@
 		1D70B17926660E68005BFE23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D70B17726660E68005BFE23 /* Main.storyboard */; };
 		1D70B17B26660E6A005BFE23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D70B17A26660E6A005BFE23 /* Assets.xcassets */; };
 		1D70B17E26660E6A005BFE23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D70B17C26660E6A005BFE23 /* LaunchScreen.storyboard */; };
-		1D70B18926660FA0005BFE23 /* UIControl+Chaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D70B18826660FA0005BFE23 /* UIControl+Chaining.swift */; };
+		1D70B18926660FA0005BFE23 /* UIKit+Chaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D70B18826660FA0005BFE23 /* UIKit+Chaining.swift */; };
 		1D70B18C2666174F005BFE23 /* AttributedString+Chaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D70B18B2666174F005BFE23 /* AttributedString+Chaining.swift */; };
-		1D70B18E26661905005BFE23 /* CommonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D70B18D26661905005BFE23 /* CommonExtension.swift */; };
+		1D70B18E26661905005BFE23 /* ConvenientExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D70B18D26661905005BFE23 /* ConvenientExtension.swift */; };
 		1D70B19026661A3D005BFE23 /* UserDefaultsWrapped.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D70B18F26661A3D005BFE23 /* UserDefaultsWrapped.swift */; };
+		1DF6AF8E26CD08EA007B5B54 /* NibLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF6AF8D26CD08EA007B5B54 /* NibLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +29,11 @@
 		1D70B17A26660E6A005BFE23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D70B17D26660E6A005BFE23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D70B17F26660E6A005BFE23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1D70B18826660FA0005BFE23 /* UIControl+Chaining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+Chaining.swift"; sourceTree = "<group>"; };
+		1D70B18826660FA0005BFE23 /* UIKit+Chaining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIKit+Chaining.swift"; sourceTree = "<group>"; };
 		1D70B18B2666174F005BFE23 /* AttributedString+Chaining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AttributedString+Chaining.swift"; sourceTree = "<group>"; };
-		1D70B18D26661905005BFE23 /* CommonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonExtension.swift; sourceTree = "<group>"; };
+		1D70B18D26661905005BFE23 /* ConvenientExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvenientExtension.swift; sourceTree = "<group>"; };
 		1D70B18F26661A3D005BFE23 /* UserDefaultsWrapped.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsWrapped.swift; sourceTree = "<group>"; };
+		1DF6AF8D26CD08EA007B5B54 /* NibLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +82,10 @@
 			isa = PBXGroup;
 			children = (
 				1D70B18B2666174F005BFE23 /* AttributedString+Chaining.swift */,
-				1D70B18826660FA0005BFE23 /* UIControl+Chaining.swift */,
+				1D70B18826660FA0005BFE23 /* UIKit+Chaining.swift */,
 				1D70B18F26661A3D005BFE23 /* UserDefaultsWrapped.swift */,
-				1D70B18D26661905005BFE23 /* CommonExtension.swift */,
+				1D70B18D26661905005BFE23 /* ConvenientExtension.swift */,
+				1DF6AF8D26CD08EA007B5B54 /* NibLoader.swift */,
 			);
 			path = SwiftUtilities;
 			sourceTree = "<group>";
@@ -159,10 +162,11 @@
 			files = (
 				1D70B19026661A3D005BFE23 /* UserDefaultsWrapped.swift in Sources */,
 				1D70B17626660E68005BFE23 /* ViewController.swift in Sources */,
+				1DF6AF8E26CD08EA007B5B54 /* NibLoader.swift in Sources */,
 				1D70B17226660E68005BFE23 /* AppDelegate.swift in Sources */,
-				1D70B18926660FA0005BFE23 /* UIControl+Chaining.swift in Sources */,
+				1D70B18926660FA0005BFE23 /* UIKit+Chaining.swift in Sources */,
 				1D70B17426660E68005BFE23 /* SceneDelegate.swift in Sources */,
-				1D70B18E26661905005BFE23 /* CommonExtension.swift in Sources */,
+				1D70B18E26661905005BFE23 /* ConvenientExtension.swift in Sources */,
 				1D70B18C2666174F005BFE23 /* AttributedString+Chaining.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

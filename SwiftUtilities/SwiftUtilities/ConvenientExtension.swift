@@ -7,7 +7,6 @@
 
 import UIKit
 
-
 extension UIColor {
     
     convenience init(r red: CGFloat, g green: CGFloat, b blue: CGFloat, a alpha: CGFloat = 1.0) {

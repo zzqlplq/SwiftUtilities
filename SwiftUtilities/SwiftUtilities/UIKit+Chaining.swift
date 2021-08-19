@@ -8,10 +8,9 @@
 import UIKit
 
 protocol CommonProtocol {
-    associatedtype T
-    func backgroundColor(_ color: UIColor) -> T
-    func userInteraction(_ enable: Bool) -> T
-    func addTapGesture(_ target: Any?, action: Selector, tapGesture:((_: UITapGestureRecognizer)-> Void)?) -> T
+    func backgroundColor(_ color: UIColor) -> Self
+    func userInteraction(_ enable: Bool) -> Self
+    func addTapGesture(_ target: Any?, action: Selector, tapGesture:((_: UITapGestureRecognizer)-> Void)?) -> Self
 }
 
 extension CommonProtocol where Self: UIView {

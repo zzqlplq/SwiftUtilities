@@ -7,8 +7,22 @@
 
 import Foundation
 
+protocol UserDefaultsWrappable { }
+
+extension String: UserDefaultsWrappable {}
+extension Int: UserDefaultsWrappable {}
+extension Double: UserDefaultsWrappable {}
+extension Float: UserDefaultsWrappable {}
+extension Bool: UserDefaultsWrappable {}
+extension Date: UserDefaultsWrappable {}
+extension Data: UserDefaultsWrappable {}
+extension Array: UserDefaultsWrappable where Element: UserDefaultsWrappable {}
+extension Set: UserDefaultsWrappable where Element: UserDefaultsWrappable {}
+extension Dictionary: UserDefaultsWrappable where Key == String, Value: UserDefaultsWrappable {}
+
+
 @propertyWrapper
-struct UserDefaultsWrapped<T> {
+struct UserDefaultsWrapped<T: UserDefaultsWrappable> {
     
     private let key: String
     private let defaultValue: T
